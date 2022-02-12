@@ -98,20 +98,8 @@ body {
     margin-top: 15px;
 }
 
-.banner-image {
-    animation-duration: 3s;
-    animation-name: slidein;
-    animation-iteration-count: infinite;
-  }
 
-  @keyframes slidein {
-    0% {
-        transform: translateX(-900px);
-      }
-      100% {
-        transform: translateX(0);
-      }
-  }
+
   
 
   .text-success {
