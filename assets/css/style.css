@@ -129,6 +129,7 @@ body {
 .product-list-top{
     display: flex;
     overflow: scroll;
+    
 }
 .heading{
     display: flex;
@@ -249,4 +250,8 @@ body {
     cursor: pointer;
     transform: scale(1.2);
 }
+.product-list-top::-webkit-scrollbar {
+    width: 0 !important;
+    display: none;
+  }
 
