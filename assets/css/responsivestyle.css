@@ -27,4 +27,7 @@
   .input-search {
     width: 90vw;
   }
+#content {
+ overflow: scroll;
+}
 }
